@@ -1,0 +1,10 @@
+vendor
+composer.lock
+composer.phar
+.env
+*.log
+*~
+*.swp
+.directory
+.DS_Store*
+.idea
