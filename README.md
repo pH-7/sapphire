@@ -1,3 +1,3 @@
-# Sapphire
+# 💎 Sapphire API 💎
 
-Sapphire, an amazing, great application 💎
+**Sapphire** is an amazing, precious, and great,... asynchronous API using [ReactPHP](https://reactphp.org) and [PHP 7.4](https://www.php.net/releases/7_4_0.php).
