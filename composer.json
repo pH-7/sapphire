@@ -1,8 +1,30 @@
 {
-    "require": {
-        "react/http": "^0.8.5",
-        "nikic/fast-route": "^1.3",
-        "vlucas/phpdotenv": "^4.1",
-        "respect/validation": "^1.1"
+  "name": "sapphire/api",
+  "type": "project",
+  "homepage": "https://lifyzer.com",
+  "authors": [
+    {
+      "name": "Pierre-Henry Soria",
+      "email": "pierre@soria.email",
+      "homepage": "https://ph7.me"
     }
+  ],
+  "require": {
+    "php": "^7.4.0",
+    "ext-json": "*",
+    "react/http": "^0.8.5",
+    "nikic/fast-route": "^1.3",
+    "vlucas/phpdotenv": "^4.1",
+    "respect/validation": "^1.1",
+    "shrikeh/teapot": "^2.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5",
+    "phake/phake": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sapphire\\App\\": "src"
+    }
+  }
 }
