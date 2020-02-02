@@ -20,6 +20,6 @@ Reachable at *hi {{AT}} ph7 [[D0T]] me*!
 
 ## 🚀 Set It Up
 
-1. Run `composer install` to install the project's dependencies.
-2. Located in the project's root, rename `.env.dist` to `.env` and edit the details in there.
-3. Start the app's server `php server.php`
+1. Run `composer install` to install the project dependencies.
+2. Located in the project root, rename `.env.dist` to `.env` and edit the app details.
+3. Start the app server `php server.php`
