@@ -16,3 +16,10 @@ The application is built on top of the Action-Domain-Responder (ADR) architectur
 [Pierre-Henry Soria](https://ph7.me). A versatile, programmatic and passionate software engineer who enjoys programming and developing new skills on a daily basis! 👨‍🏭
 
 Reachable at *hi {{AT}} ph7 [[D0T]] me*!
+
+
+## 🚀 Set It Up
+
+1. Run `composer install` to install the project's dependencies.
+2. Located in the project's root, rename `.env.dist` to `.env` and edit the details in there.
+3. Start the app's server `php server.php`
