@@ -11,6 +11,5 @@ use function FastRoute\simpleDispatcher;
 return simpleDispatcher(static function (RouteCollector $routes) use ($products, $orders) {
     $routes->get('/products', GetItems::class);
     $routes->get('/product/{id:\d+}', GetItemDetails::class);
-    $routes->get('/static/{file:.*\.\w+}', Sta
-    ticFiles::class);
+    $routes->get('/static/{file:.*\.\w+}', StaticFiles::class);
 });
